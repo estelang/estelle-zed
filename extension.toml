@@ -1,0 +1,18 @@
+id = "estelle"
+name = "Estelle"
+version = "0.1.0"
+schema_version = 1
+authors = ["t7ru <7@toru.ca>"]
+description = "Estelle language support"
+repository = "https://github.com/estelang/estelle-zed"
+
+[grammars.estelle]
+repository = "https://github.com/estelang/tree-sitter-estelle"
+rev = "9d898e67046c73bba90500c709e39140fc8f3358"
+
+[language_servers.estelle-lsp]
+name = "Estelle LSP"
+languages = ["Estelle"]
+
+[language_servers.estelle-lsp.language_ids]
+"Estelle" = "estelle"
