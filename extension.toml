@@ -13,6 +13,3 @@ rev = "9d898e67046c73bba90500c709e39140fc8f3358"
 [language_servers.estelle-lsp]
 name = "Estelle LSP"
 languages = ["Estelle"]
-
-[language_servers.estelle-lsp.language_ids]
-"Estelle" = "estelle"
